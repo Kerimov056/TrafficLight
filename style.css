@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    height: 100vh;
+}
+.conteiner{
+    background-size: 100%;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+   
+}
+
+.Traffic_light{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100px;
+    height: 300px;
+    border: 1px solid black;
+    border-radius: 16px;
+    background-color: gray;
+    border: none;
+
+}
+.Traffic_light div{
+    margin-top: 15px;
+    width: 80%;
+    height: 80px;
+    border-radius: 50%;
+    border: 1px solid black;
+    background-color: black;
+    border: none;
+} 
+
+.drek{
+    width: 25px;
+    height: 380px;
+    background-color: black;
+}
+.alt{
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+    width: 44px;
+    height: 14px;
+    background-color: black;
+}
+
